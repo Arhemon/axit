@@ -14,12 +14,13 @@
     text-align: center;
     color: #333;
     font-weight: 400;
+    line-height: 40px;
 
 }
 
 .section__tabs-text4 {
     width: 599.6px;
-
+    line-height: 40px;
     display: inline-block;
     border-bottom: 1px solid #C6CBCD;
     height: 40.5px;
@@ -36,7 +37,7 @@
     width: 203px;
     height: 40px;
     font-weight: 400;
-
+    line-height: 40px;
     text-align: center;
     border-radius: 5px 5px 0px 0px;
     border-top: 1px solid #C6CBCD;
