@@ -55,7 +55,7 @@
 }
 
 
-.section-left-side-tabs {
+.section-left {
     width: 570px;
     display: inline-block;
     vertical-align: text-bottom;
@@ -64,7 +64,7 @@
     vertical-align: top;
 }
 
-.section__title-text-tabs {
+.section-left__title-tabs {
     color: #000;
     font-family: Open Sans;
     font-size: 30px;
@@ -72,7 +72,7 @@
     height: 124px;
 }
 
-.section__explain-text-tabs {
+.section-left__explain-tabs {
     color: #000;
     font-family: Raleway;
     font-size: 18px;
@@ -81,7 +81,9 @@
     padding-bottom: 30px;
 }
 
-.section__border-download-tabs {
+
+
+.section-left__text-download-tabs {
     width: 270px;
     height: 58px;
     background-color: #EC7979;
@@ -91,20 +93,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.section__text-download-tabs {
-
     color: #FFF;
 
     font-family: Open Sans;
     font-size: 18px;
     font-weight: 600;
-
-
+    text-decoration: none;
 }
 
-.section__img-tabs {
+.section__right {
     display: inline-block;
 
 }
