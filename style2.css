@@ -1,0 +1,122 @@
+.section-price {
+    width: 1170px;
+    height: 800px;
+    margin: 0 auto;
+    background: #F5F5F5;
+    padding-top: 50px;
+}
+
+.section__title {
+    font-size: 36px;
+    width: 100%;
+    width: 1170px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Raleway;
+    text-transform: uppercase;
+
+}
+
+.section__solid {
+    border: 1px solid #EC7979;
+    width: 170px;
+    margin: 0 auto;
+}
+
+.section__undertitle {
+    color: #86878B;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 18px;
+    padding: 40px 10px 70px 10px;
+}
+
+.section__all-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.section__first-list {
+    flex-direction: column;
+    display: flex;
+    width: 370px;
+    position: relative;
+    bottom: -20px;
+
+}
+
+.section__title-list {
+    background-color: #333333;
+    height: 210px;
+}
+
+.section__basic {
+    height: 60px;
+    color: white;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 24px;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section__solid-list {
+    width: 370px;
+    border: 1px solid #F5F5F5;
+
+}
+
+.section__dollar {
+    height: 100px;
+    color: #FFF;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section__free {
+    color: rgba(255, 255, 255, 0.50);
+    text-align: center;
+    font-family: Raleway;
+    font-size: 18px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section__1gb {
+    border: 2px solid #F5F5F5;
+    background: #FFF;
+    width: 370px;
+    height: 50px;
+    color: #86878B;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section__second-list {
+    flex-direction: column;
+    display: flex;
+    width: 370px;
+
+}
+
+.section__third-list {
+    flex-direction: column;
+    display: flex;
+    width: 370px;
+    position: relative;
+    bottom: -20px;
+}

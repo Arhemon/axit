@@ -14,13 +14,12 @@
     text-align: center;
     color: #333;
     font-weight: 400;
-    line-height: 40px;
 
 }
 
 .section__tabs-text4 {
     width: 599.6px;
-    line-height: 40px;
+
     display: inline-block;
     border-bottom: 1px solid #C6CBCD;
     height: 40.5px;
@@ -37,7 +36,7 @@
     width: 203px;
     height: 40px;
     font-weight: 400;
-    line-height: 40px;
+
     text-align: center;
     border-radius: 5px 5px 0px 0px;
     border-top: 1px solid #C6CBCD;
@@ -55,7 +54,7 @@
 }
 
 
-.section-left {
+.section-left-side-tabs {
     width: 570px;
     display: inline-block;
     vertical-align: text-bottom;
@@ -64,7 +63,7 @@
     vertical-align: top;
 }
 
-.section-left__title-tabs {
+.section__title-text-tabs {
     color: #000;
     font-family: Open Sans;
     font-size: 30px;
@@ -72,7 +71,7 @@
     height: 124px;
 }
 
-.section-left__explain-tabs {
+.section__explain-text-tabs {
     color: #000;
     font-family: Raleway;
     font-size: 18px;
@@ -81,9 +80,7 @@
     padding-bottom: 30px;
 }
 
-
-
-.section-left__text-download-tabs {
+.section__border-download-tabs {
     width: 270px;
     height: 58px;
     background-color: #EC7979;
@@ -93,15 +90,20 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.section__text-download-tabs {
+
     color: #FFF;
 
     font-family: Open Sans;
     font-size: 18px;
     font-weight: 600;
-    text-decoration: none;
+
+
 }
 
-.section__right {
+.section__img-tabs {
     display: inline-block;
 
 }
