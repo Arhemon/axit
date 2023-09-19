@@ -1,4 +1,10 @@
 .section-price {
+
+    width: 100%;
+    background: #F5F5F5;
+}
+
+.section-price-all {
     width: 1170px;
     height: 800px;
     margin: 0 auto;
@@ -35,15 +41,16 @@
 
 .section__all-list {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+
 }
 
-.section__first-list {
+.section__first-list:hover {
     flex-direction: column;
     display: flex;
     width: 370px;
     position: relative;
-    bottom: -20px;
+    bottom: 20px;
 
 }
 
@@ -106,17 +113,19 @@
     align-items: center;
 }
 
-.section__second-list {
-    flex-direction: column;
-    display: flex;
-    width: 370px;
-
-}
-
-.section__third-list {
+.section__second-list:hover {
     flex-direction: column;
     display: flex;
     width: 370px;
     position: relative;
-    bottom: -20px;
+    bottom: 20px;
+
+}
+
+.section__third-list:hover {
+    flex-direction: column;
+    display: flex;
+    width: 370px;
+    position: relative;
+    bottom: 20px;
 }

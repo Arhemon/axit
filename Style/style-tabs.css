@@ -90,12 +90,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
+
+a.active {
+    background: #AB4949;
+}
+
+a.hover {}
 
 .section__text-download-tabs {
 
     color: #FFF;
-
+    text-decoration: none;
     font-family: Open Sans;
     font-size: 18px;
     font-weight: 600;
