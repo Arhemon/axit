@@ -18,6 +18,7 @@
     width: 1170px;
     height: 150px;
     display: flex;
+    font-weight: 400;
     justify-content: center;
     align-items: center;
     font-family: Raleway;

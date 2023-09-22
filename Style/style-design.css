@@ -1,0 +1,20 @@
+.section-design {
+    width: 1510px;
+    height: 442px;
+}
+
+/* .section-design-opacity {
+    width: 1510px;
+    height: 442px;
+    background-color: rgba(0, 0, 0, 0.50);
+} */
+
+.section-design-opacity {
+    width: 100%;
+    background: url("/Image/image\ \(7\).png ");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: scroll;
+}
