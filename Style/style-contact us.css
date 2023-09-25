@@ -1,0 +1,82 @@
+.section-contact {
+    height: 650px;
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.section-contact-form-left {
+    width: 580px;
+    height: 200px;
+    display: inline-flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.Name {
+    display: flex;
+    width: 571px;
+    height: 40px;
+    justify-content: center;
+    align-items: flex-start;
+    border-bottom: 1px solid #BDBDBD;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+.Email {
+    display: flex;
+    width: 571px;
+    height: 40px;
+    justify-content: center;
+    align-items: flex-start;
+    border-bottom: 1px solid #BDBDBD;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+::placeholder {
+    color: #BDBDBD;
+    ;
+}
+
+.Password {
+    display: flex;
+    width: 571px;
+    height: 40px;
+    justify-content: center;
+    align-items: flex-start;
+    border-bottom: 1px solid #BDBDBD;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+.section-contact-area {
+    width: 569px;
+    height: 195px;
+    display: inline-flex;
+    position: absolute;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 1px solid #BDBDBD;
+    margin-left: 20px;
+}
+
+.section-contact-start {
+    width: 270px;
+    height: 58px;
+    background-color: #EC7979;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 18px;
+    margin-top: 50px;
+    text-decoration: none;
+}
