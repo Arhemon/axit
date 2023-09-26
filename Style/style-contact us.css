@@ -80,3 +80,13 @@
     margin-top: 50px;
     text-decoration: none;
 }
+
+.section-contact-start:active {
+    background: #AB4949;
+    box-shadow: 0px 0px 10px 0px #AB4949 inset;
+
+}
+
+.section-contact-start:hover {
+    background: #AB4949;
+}

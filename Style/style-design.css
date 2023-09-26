@@ -1,5 +1,5 @@
 .section-design {
-    width: 1170px;
+    width: 1502px;
     height: 442px;
     margin: 0 auto;
 
@@ -8,7 +8,7 @@
 .section-design-black {
     background-color: #000;
     opacity: 0.5;
-    width: 1170px;
+    width: 100%;
     height: 442px;
     position: absolute;
     z-index: -1;
@@ -22,7 +22,7 @@
     background-size: cover;
     color: #fff;
     z-index: 1;
-    width: 1170px;
+    width: 100%;
     height: 442px;
 }
 
@@ -72,4 +72,13 @@
     align-items: center;
     margin: 0 auto;
     margin-top: 73px;
+}
+
+.section-download:hover {
+    border: 2px solid #EC7979;
+}
+
+.section-download:active {
+    border: 2px solid #AB4949;
+    background: #AB4949;
 }
