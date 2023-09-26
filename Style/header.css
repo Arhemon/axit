@@ -1,13 +1,14 @@
 .header {
-    width: 1510px;
+    width: 100%;
     margin: 0 auto;
 }
 
 .navigation {
-    width: 1510px;
+    width: 100%;
     height: 80px;
     display: inline-flex;
     background: #000;
+    justify-content: center;
 
 }
 
@@ -46,7 +47,7 @@
     background-size: cover;
     color: #fff;
     z-index: 1;
-    width: 1510px;
+    width: 100%;
     height: 1026px;
 }
 
@@ -237,9 +238,11 @@
 }
 
 .header-low-icon {
-    width: 1510px;
+    width: 100%;
     height: 140px;
     background: #F8EFEF;
+    display: flex;
+    justify-content: center;
 }
 
 
