@@ -286,3 +286,205 @@
     width: 70px;
     height: 70px;
 }
+
+
+@media (max-width:1300px) {
+    .header-icon {
+        padding: 35px 10px 35px 30px;
+    }
+}
+
+@media (max-width:1200px) {
+    .header-right-side {
+        width: 398px;
+
+    }
+
+    .header-side {
+        width: 992px;
+
+    }
+
+    .Header-Name {
+        width: 280px;
+    }
+
+    .Header-Password {
+        width: 280px;
+    }
+
+    .Header-Email {
+        width: 280px;
+    }
+
+    .header__get {
+        width: 398px;
+
+    }
+
+    .header-left-side {
+        width: 454.358px;
+        margin-left: 120px;
+    }
+
+    .navigation-icon {
+        margin-right: 80px;
+        margin-left: 350px;
+    }
+
+    .header__undertitle {
+        width: 183.099px;
+        font-size: 14px;
+
+    }
+
+    .header__title {
+        font-size: 36px;
+        width: 454.358px;
+    }
+
+    .logo {
+        width: 183.099px;
+        height: 74.854px;
+    }
+
+    .header-download {
+        width: 183.099px;
+        height: 50px;
+    }
+
+    .header-solid {
+        width: 115.285px;
+
+    }
+
+    .header-icon {
+        padding: 35px 0px 35px 20px;
+    }
+
+    .header-img {
+        width: 64px;
+        height: 64px;
+    }
+
+    .header__icon-text {
+        margin-left: 10px;
+    }
+
+    .header__undertext {
+        margin-left: 10px;
+
+    }
+}
+
+@media (max-width:1050px) {
+
+    .header-side {
+        width: 350px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header-left-side {
+        margin-left: 0px;
+        padding-top: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 350px;
+    }
+
+    .header-right-side {
+        margin-top: 70px;
+        margin-left: 0px;
+        width: 355px;
+    }
+
+    .navigation-logo {
+        width: 130px;
+        height: 56px;
+    }
+
+    .Header-Name {
+        width: 220px;
+    }
+
+    .Header-Password {
+        width: 220px;
+    }
+
+    .Header-Email {
+        width: 220px;
+    }
+
+    .header__get {
+        width: 355px;
+
+    }
+
+    .header__form-title {
+        width: 321px;
+    }
+
+    .header__title {
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .header__undertitle {
+        text-align: center;
+    }
+
+    .header-solid {
+        text-align: center;
+
+    }
+
+    .header-download {
+        text-align: center;
+
+    }
+
+    .navigation-icon {
+        display: none;
+    }
+
+    .header-low-icon {
+        flex-direction: column;
+        height: 239px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header__icon-text {
+        width: 287px;
+        height: 45px;
+        margin-left: 147px;
+
+    }
+
+    .header-img {
+        width: 28px;
+        height: 26px;
+    }
+
+    .header-icon {
+        width: 280px;
+    }
+
+    .header-low-text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 287px;
+        flex-direction: column;
+    }
+
+    .header__undertext {
+        width: 270px;
+        margin-left: 0px;
+        text-align: center;
+    }
+
+}

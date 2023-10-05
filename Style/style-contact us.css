@@ -66,7 +66,7 @@
 }
 
 .section-contact-start {
-    width: 270px;
+    width: 370px;
     height: 58px;
     background-color: #EC7979;
     text-align: center;
@@ -89,4 +89,98 @@
 
 .section-contact-start:hover {
     background: #AB4949;
+}
+
+@media (max-width: 1200px) {
+
+    .section-contact {
+        width: 992px;
+
+    }
+
+    .section-contact-form-left {
+        width: 480px;
+        margin-left: 20px;
+
+    }
+
+    .Name {
+        font-size: 14px;
+        width: 486px;
+
+    }
+
+    .Password {
+        font-size: 14px;
+        width: 486px;
+
+    }
+
+    .Email {
+        font-size: 14px;
+        width: 486px;
+    }
+
+    .section-contact-area {
+        font-size: 14px;
+        width: 486px;
+        height: 170px;
+        margin-top: 24px;
+
+    }
+
+    .section-contact-start {
+        width: 310px;
+        height: 58px;
+        font-size: 18px;
+
+    }
+}
+
+@media (max-width: 1050px) {
+
+    .section-contact-form-left {
+        display: block;
+        margin: 0 auto;
+        width: 300px;
+    }
+
+    .section-contact-area {
+        display: block;
+        margin: 0 auto;
+        margin-left: 344px;
+        width: 306px;
+
+    }
+
+    .section-contact {
+        height: 807px;
+        width: 100%;
+
+    }
+
+    .section-contact-start {
+        margin-top: 224px;
+        width: 288px;
+        height: 50px;
+    }
+
+    .Name {
+        font-size: 14px;
+        width: 306px;
+
+    }
+
+    .Password {
+        font-size: 14px;
+        width: 306px;
+
+    }
+
+    .Email {
+        font-size: 14px;
+        width: 306px;
+    }
+
+
 }

@@ -82,3 +82,74 @@
     border: 2px solid #AB4949;
     background: #AB4949;
 }
+
+@media (max-width: 1200px) {
+    .section-design__title {
+
+        width: 992px;
+        font-size: 24px;
+
+    }
+
+    .section-design-solid {
+        width: 142px;
+
+    }
+
+    .section-design-all {
+        width: 992px;
+
+    }
+
+    .section-design__text {
+        width: 992px;
+        font-size: 14px;
+
+    }
+
+    .section-download {
+        width: 310px;
+        height: 58px;
+        font-size: 18px;
+
+
+    }
+}
+
+@media (max-width: 1050px) {
+
+    .section-design__title {
+
+        width: 288px;
+        height: 120px;
+        margin: 0 auto;
+    }
+
+    .section-design-solid {
+        width: 134px;
+
+    }
+
+    .section-design-all {
+        width: 350px;
+        height: 358px;
+
+    }
+
+    .section-design__text {
+        width: 288px;
+        height: 80px;
+        font-size: 14px;
+        margin: 0 auto;
+        padding-top: 20px;
+
+    }
+
+    .section-download {
+        width: 287px;
+        height: 50px;
+        font-size: 18px;
+
+
+    }
+}

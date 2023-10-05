@@ -22,6 +22,7 @@
     font-family: Raleway;
     font-size: 18px;
     padding: 40px 10px 70px 10px;
+    margin: 0 auto;
 }
 
 .section-all {
@@ -54,4 +55,84 @@
     font-size: 18px;
     text-align: center;
     font-family: Raleway;
+}
+
+@media (max-width:1200px) {
+
+    .section__solid {
+        width: 115px;
+    }
+
+    .section__undertitle {
+        width: 983px;
+        font-size: 14px;
+
+    }
+
+    .section-container {
+        width: 992px;
+
+    }
+
+    .section__icon {
+        width: 147px;
+        height: 147px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 72px;
+    }
+
+    .section-all {
+        width: 992px;
+
+    }
+
+    .section__icon-text {
+        width: 300px;
+        height: 82px;
+        font-size: 18px;
+
+    }
+
+    .section__explain-text {
+        width: 300px;
+        font-size: 14px;
+
+    }
+
+    .section-separate {
+        width: 300px;
+
+    }
+
+    .image {
+        width: 147px;
+        height: 147px;
+    }
+
+
+}
+
+
+@media (max-width:1050px) {
+    .section-all {
+        display: flex;
+        flex-direction: column;
+
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .section-container {
+        width: 100%;
+    }
+
+    .section__undertitle {
+        width: 100%;
+    }
+
+
+
 }
