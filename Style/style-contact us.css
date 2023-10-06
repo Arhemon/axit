@@ -12,7 +12,7 @@
     flex-direction: column;
 }
 
-.Name {
+.name {
     display: flex;
     width: 571px;
     height: 40px;
@@ -24,7 +24,7 @@
     border-right: 0px;
 }
 
-.Email {
+.email {
     display: flex;
     width: 571px;
     height: 40px;
@@ -41,7 +41,7 @@
     ;
 }
 
-.Password {
+.password {
     display: flex;
     width: 571px;
     height: 40px;
@@ -57,12 +57,31 @@
     width: 569px;
     height: 195px;
     display: inline-flex;
-    position: absolute;
     border-top: 0px;
     border-left: 0px;
     border-right: 0px;
     border-bottom: 1px solid #BDBDBD;
-    margin-left: 20px;
+}
+
+.section-contact-area {
+    width: 569px;
+    height: 188px;
+    display: inline-flex;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+
+    border-bottom: none;
+}
+
+.section-contact-area textarea {
+    font-family: 'Open Sans', sans-serif;
+    border-bottom: 1px solid #BDBDBD;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 569px;
+
 }
 
 .section-contact-start {
@@ -80,6 +99,8 @@
     margin-top: 50px;
     text-decoration: none;
 }
+
+
 
 .section-contact-start:active {
     background: #AB4949;
@@ -104,28 +125,25 @@
 
     }
 
-    .Name {
+    .name {
         font-size: 14px;
-        width: 486px;
-
+        width: 444px;
     }
 
-    .Password {
+    .password {
         font-size: 14px;
-        width: 486px;
-
+        width: 444px;
     }
 
-    .Email {
+    .email {
         font-size: 14px;
-        width: 486px;
+        width: 444px;
     }
 
     .section-contact-area {
         font-size: 14px;
-        width: 486px;
-        height: 170px;
-        margin-top: 24px;
+        width: 444px;
+        height: 188px;
 
     }
 
@@ -148,7 +166,6 @@
     .section-contact-area {
         display: block;
         margin: 0 auto;
-        margin-left: 344px;
         width: 306px;
 
     }
@@ -156,28 +173,33 @@
     .section-contact {
         height: 807px;
         width: 100%;
+        width: 306px;
 
     }
 
+    .section-contact-area textarea {
+        width: 306px;
+        height: 150px;
+    }
+
     .section-contact-start {
-        margin-top: 224px;
         width: 288px;
         height: 50px;
     }
 
-    .Name {
+    .name {
         font-size: 14px;
         width: 306px;
 
     }
 
-    .Password {
+    .password {
         font-size: 14px;
         width: 306px;
 
     }
 
-    .Email {
+    .email {
         font-size: 14px;
         width: 306px;
     }

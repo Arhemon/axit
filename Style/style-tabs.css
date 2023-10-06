@@ -253,6 +253,7 @@
     .section-left-side-tabs {
         margin-top: 0px;
         margin-left: 0px;
+        width: 350px
     }
 
     .section__border-download-tabs {
