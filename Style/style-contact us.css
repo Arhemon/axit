@@ -157,6 +157,54 @@
 
 @media (max-width: 1050px) {
 
+    .section-contact {
+        width: 750px;
+
+    }
+
+    .section-contact-form-left {
+        width: 360px;
+        margin-left: 20px;
+
+    }
+
+    .name {
+        font-size: 14px;
+        width: 444px;
+    }
+
+    .password {
+        font-size: 14px;
+        width: 330px;
+    }
+
+    .email {
+        font-size: 14px;
+        width: 330px;
+    }
+
+    .section-contact-area {
+        font-size: 14px;
+        width: 330px;
+        height: 188px;
+
+    }
+
+    .section-contact-start {
+        width: 250px;
+        height: 58px;
+        font-size: 18px;
+
+    }
+}
+
+.section-contact-area textarea {
+    width: 350px;
+}
+
+
+@media (max-width: 800px) {
+
     .section-contact-form-left {
         display: block;
         margin: 0 auto;

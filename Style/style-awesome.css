@@ -110,12 +110,65 @@
         width: 147px;
         height: 147px;
     }
+}
 
+@media (max-width:1050px) {
 
+    .section__solid {
+        width: 115px;
+    }
+
+    .section__undertitle {
+        width: 750px;
+        font-size: 14px;
+
+    }
+
+    .section-container {
+        width: 750px;
+
+    }
+
+    .section__icon {
+        width: 110px;
+        height: 110px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 72px;
+    }
+
+    .section-all {
+        width: 750px;
+
+    }
+
+    .section__icon-text {
+        width: 245px;
+        height: 82px;
+        font-size: 18px;
+
+    }
+
+    .section__explain-text {
+        width: 245px;
+        font-size: 14px;
+
+    }
+
+    .section-separate {
+        width: 245px;
+
+    }
+
+    .image {
+        width: 110px;
+        height: 110px;
+    }
 }
 
 
-@media (max-width:1050px) {
+@media (max-width:800px) {
     .section-all {
         display: flex;
         flex-direction: column;
@@ -131,6 +184,14 @@
 
     .section__undertitle {
         width: 98%;
+    }
+
+    .section-separate {
+        height: 320px;
+    }
+
+    .section__icon-text {
+        height: 42px;
     }
 
 

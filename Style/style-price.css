@@ -202,9 +202,82 @@
 
 }
 
+
 @media (max-width:1050px) {
+
+    .section__title {
+        width: 750px;
+        height: 120px;
+        font-size: 24px;
+        margin: 0 auto;
+    }
+
+    .section__solid {
+        width: 115px;
+    }
+
+    .section-price-all {
+        width: 780px;
+
+    }
+
+    .section__first-list {
+        width: 245px;
+    }
+
+    .section__second-list {
+        width: 245px;
+    }
+
+    .section__third-list {
+        width: 245px;
+    }
+
+    .section__first-list:hover {
+        flex-direction: column;
+        display: flex;
+        width: 245px;
+        position: relative;
+        bottom: 10px;
+
+    }
+
+    .section__second-list:hover {
+        flex-direction: column;
+        display: flex;
+        width: 245px;
+        position: relative;
+        bottom: 10px;
+
+    }
+
+    .section__third-list:hover {
+        flex-direction: column;
+        display: flex;
+        width: 245px;
+        position: relative;
+        bottom: 10px;
+    }
+
+    .section__1gb {
+        width: 245px;
+        font-size: 18px;
+
+    }
+
+
+
+    .section__solid-list {
+        width: 245px;
+
+    }
+
+}
+
+@media (max-width:800px) {
     .section__title {
         width: 100%;
+        font-size: 18px;
     }
 
     .section-price-all {

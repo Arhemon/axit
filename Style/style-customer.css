@@ -143,6 +143,77 @@
 }
 
 @media (max-width: 1050px) {
+    .section__solid {
+        width: 115px;
+    }
+
+    .section__undertitle {
+        width: 750px;
+        font-size: 14px;
+
+    }
+
+    .section-customer {
+        width: 780px;
+
+    }
+
+    .section-customer-first-column {
+        width: 245px;
+
+    }
+
+    .section-customer-second-column {
+        width: 245px;
+
+    }
+
+    .section-customer-third-column {
+        width: 245px;
+
+    }
+
+    .section-customer__text {
+        width: 245px;
+        font-size: 14px;
+
+
+    }
+
+    .section-customer__about {
+        width: 245px;
+        padding-top: 43px;
+    }
+
+    .section-customer__img {
+        width: 25.703px;
+        height: 20px;
+        right: 170px;
+
+    }
+
+    .section-customer-about__img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .section-customer__name {
+        font-size: 15px;
+
+    }
+
+    .section-customer__manager {
+        font-size: 12px;
+
+    }
+
+    .customer-img {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media (max-width: 800px) {
 
     .section__undertitle {
         width: 98%;
